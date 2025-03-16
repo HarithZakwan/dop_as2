@@ -77,7 +77,7 @@ new #[Layout('components.layouts.auth')] class extends Component {
     <div class="flex justify-center mb-4">
     <img src="{{ asset('images/pblogo.png') }}" alt="PB Logo" width="100">
     </div>
-    <x-auth-header :title="__('Log in to your account')" :description="__('Enter your email and password below to log in')" />
+    <x-auth-header :title="__('Log in to your account Harith')" :description="__('Enter your email and password below to log in')" />
 
     <!-- Session Status -->
     <x-auth-session-status class="text-center" :status="session('status')" />
